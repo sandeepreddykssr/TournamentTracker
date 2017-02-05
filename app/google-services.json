@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "124125357834",
+    "firebase_url": "https://tournamentapplication-6aacd.firebaseio.com",
+    "project_id": "tournamentapplication-6aacd",
+    "storage_bucket": "tournamentapplication-6aacd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124125357834:android:3accce95b4a325f2",
+        "android_client_info": {
+          "package_name": "com.sandeepreddy.tournament"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124125357834-c45j3q5c17vk3am1m7i0e6l80qd3vecs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfQKpmgqkI6IJt2tJmsHG8tDTJiZZi1Jk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124125357834-c45j3q5c17vk3am1m7i0e6l80qd3vecs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

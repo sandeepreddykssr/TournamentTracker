@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF007F</color>
+
+    <color name="colorPrimaryOrange">#ff9800</color>
+    <color name="colorPrimaryDarkOrange">#f57c00</color>
+    <color name="colorAccentOrange">#7c4dff</color>
+
+    <color name="colorPrimaryBlue">#3f51b5</color>
+    <color name="colorPrimaryDarkBlue">#303f9f</color>
+    <color name="colorAccentBlue">#40c4ff</color>
+
+    <color name="colorPrimaryGreen">#259b24</color>
+    <color name="dark_green">#0a7e07</color>
+    <color name="colorAccentGreen">#b2ff59</color>
+
+    <color name="colorPrimaryPurple">#9c27b0</color>
+    <color name="colorPrimaryDarkPurple">#7b1fa2</color>
+    <color name="colorAccentPurple">#40c4ff</color>
+
+    <color name="blue_light">#33b5e5</color>
+    <color name="orange_dark">#ff8800</color>
+    <color name="red_light">#ff4444</color>
+
+    <color name="bright_pink">#FF007F</color>
+
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="tomato">#d50000</color>
+    <color name="tangerine">#f4511e</color>
+    <color name="banana">#f6bf26</color>
+    <color name="basil">#0b8043</color>
+    <color name="sage">#33b679</color>
+    <color name="peacock">#039be5</color>
+    <color name="blueberry">#3f51b5</color>
+    <color name="lavender">#7986cb</color>
+    <color name="grape">#8e24aa</color>
+    <color name="flamingo">#e67c73</color>
+    <color name="graphite">#616161</color>
+    <color name="white">#ffffff</color>
+
+    <color name="red_ee">#DDFF0000</color>
+    <color name="orange_ee">#DDFF7F00</color>
+    <color name="yellow_ee">#DDFFFF00</color>
+    <color name="green_ee">#DD00FF00</color>
+    <color name="cyan_ee">#DD00FFFF</color>
+    <color name="azure_ee">#DD007FFF</color>
+    <color name="blue_ee">#DD0000FF</color>
+    <color name="violet_ee">#DD7F00FF</color>
+    <color name="magenta_ee">#DDFF00FF</color>
+    <color name="tomato_ee">#DDd50000</color>
+    <color name="tangerine_ee">#DDf4511e</color>
+    <color name="banana_ee">#DDf6bf26</color>
+    <color name="basil_ee">#DD0b8043</color>
+    <color name="sage_ee">#DD33b679</color>
+    <color name="peacock_ee">#DD039be5</color>
+    <color name="blueberry_ee">#DD3f51b5</color>
+    <color name="lavender_ee">#DD7986cb</color>
+    <color name="grape_ee">#DD8e24aa</color>
+    <color name="flamingo_ee">#DDe67c73</color>
+    <color name="graphite_ee">#DD616161</color>
+    <color name="white_ee">#DDffffff</color>
+</resources>

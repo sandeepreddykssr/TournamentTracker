@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context="com.sandeepreddy.tournament.PlayersActivity">
+
+    <include layout="@layout/collapsing_toolbar_layout" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/playerRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:gravity="bottom|end"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:divider="@drawable/medium_spacer"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/addMeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:elevation="6dp"
+                android:visibility="invisible"
+                app:cardBackgroundColor="#777"
+                app:pressedTranslationZ="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:padding="5dp"
+                    android:text="@string/add_me"
+                    android:textColor="@color/white" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/addMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:layout_marginEnd="@dimen/fab_margin"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:src="@drawable/ic_person_add_black_24dp"
+                android:tint="@android:color/white"
+                android:visibility="invisible"
+                app:backgroundTint="@color/colorAccent"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:divider="@drawable/medium_spacer"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/addFBPlayersText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:elevation="6dp"
+                android:visibility="invisible"
+                app:cardBackgroundColor="#777"
+                app:pressedTranslationZ="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:padding="5dp"
+                    android:text="@string/add_facebook_friend"
+                    android:textColor="@color/white" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/addFBPlayers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:layout_marginEnd="@dimen/fab_margin"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:src="@drawable/ic_person_add_black_24dp"
+                android:tint="@android:color/white"
+                android:visibility="invisible"
+                app:backgroundTint="@color/colorAccent"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp" />
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_add_black_24dp"
+            android:tint="@android:color/white"
+            app:backgroundTint="@color/colorAccent"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/play_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_play_arrow_black_24dp"
+        android:tint="@android:color/white"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="bottom|end" />
+
+</android.support.design.widget.CoordinatorLayout>
